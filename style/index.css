@@ -22,7 +22,10 @@
     }
      
     .navbar-nav .nav-item {
-        margin: 0 0.5rem;  
+        margin: 0 0.5rem; 
+        color: #588061 !important;
+        font-weight: bold;
+         
     }
 
     nav {
@@ -30,21 +33,25 @@
         height: 5rem;     
         width: 100%;
         font-size: larger;
-         
-    }
-
-    .custom-offcanvas-bg {
-        background-color: rgb(191, 214, 196) !important;
     }
       
+    nav .navbar-nav {
+        margin-right: 4rem;
+    }
+
     .custom-text {
-    font-weight: bold;
-    font-size: 1.5rem;
+        font-weight: bold;
+        font-size: 1.5rem;
+        color: #588061;
+        
     }
 
     nav .navbar-brand {
         font-size: 1.5rem;
         font-weight: 600;
+        color: #588061 !important;
+        margin-left: 4rem;
+       
     }
 
     h4{
@@ -329,24 +336,13 @@
 
 @media (max-width: 992px) { 
     #projects-section .card {
-        max-width: 18rem;
+        max-width: 20rem;
         margin-bottom: 2.5rem; 
     }
 }
 
 @media (max-width: 768px) { 
-
     #projects-section .card {
         margin-bottom: 2.5rem; 
     }
-}
-
-@media (max-width: 576px) { 
-    #projects-section .card {
-        max-width: 100%; 
-        margin-bottom: 3.5rem; 
-    }
-    #about-section {
-        min-height: 110vh;
-    } 
 }
