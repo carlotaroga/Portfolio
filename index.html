@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio Carlota</title>
+    <link rel="stylesheet" href="style/index.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Marcellus&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css" integrity="sha512-5Hs3dF2AEPkpNAR7UiOHba+lRSJNeM2ECkwxUIxC1Q/FLycGTbNapWXB4tP889k5T5Ju8fs4b1P5z/iB4nMfSQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+</head>
+<body>
+    <header>
+        <nav class="navbar navbar-expand-md fixed-top">
+          <div class="container-fluid">
+            <a class="navbar-brand" href="#about-section">Carlota Rodriguez Garcia</a>
+      
+            <button class="navbar-toggler d-md-none" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+      
+            <div class="collapse navbar-collapse d-none d-md-flex justify-content-end">
+              <ul class="navbar-nav">
+                <li class="nav-item"><a class="nav-link" href="#about-section">Sobre mí</a></li>
+                <li class="nav-item"><a class="nav-link" href="#experience-section">Experiencia</a></li>
+                <li class="nav-item"><a class="nav-link" href="#projects-section">Proyectos</a></li>
+                <li class="nav-item"><a class="nav-link" href="#skills-section">Skills</a></li>
+              </ul>
+            </div>
+      
+            <div class="offcanvas offcanvas-end d-md-none custom-offcanvas-bg" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+              <div class="offcanvas-header">
+                <h5 class="offcanvas-title custom-text" id="offcanvasNavbarLabel">Menú</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="offcanvas"></button>
+              </div>
+              <div class="offcanvas-body custom-text">
+                <ul class="navbar-nav">
+                  <li class="nav-item"><a class="nav-link" href="#about-section">Sobre mí</a></li>
+                  <li class="nav-item"><a class="nav-link" href="#experience-section">Experiencia</a></li>
+                  <li class="nav-item"><a class="nav-link" href="#projects-section">Proyectos</a></li>
+                  <li class="nav-item"><a class="nav-link" href="#skills-section">Skills</a></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </nav>
+      </header>
+      
+      
+
+
+    <section id="about-section">
+        <h2>¡Hola Mundo, soy Carlota!</h2>
+        <div class="headshot">
+            <picture>
+                <img src="./media/me.jpg" alt="headshot">
+            </picture>
+        </div>
+        <div class="bio">
+            <p>
+                Recien graduada en Desarrollo de Aplicaciones Web (DAW). 
+                Me apasiona el aprendizaje continuo en el ámbito de la programación y el diseño de interfaces de usuario
+                (UI). Actualmente, estoy enfocada en la obtención de certificaciones oficiales de Cambridge y, en un futuro 
+                próximo, en especializarme en ilustración y/o diseño web.
+            </p>
+            <br>
+            <p>
+                Fuera de mis estudios, disfruto leyendo, jugar a videojuegos y levantar pesas.
+            </p>
+        </div>
+        <div class="social-links">
+            <a href="./media/Curriculum Carlota R.G.pdf" download="CurriculumCarlota.pdf">
+                <i class="fa-solid fa-file"></i>
+            </a>            
+            <a href="https://www.linkedin.com/in/carlota-rodriguez-garcia-1399062a9/?trk=opento_sprofile_details" target="_blank">
+                <i class="fa-brands fa-linkedin"></i>
+            </a>
+            <a href="https://github.com/carlotaroga" target="_blank">
+                <i class="fa-brands fa-github"></i>
+            </a>
+        </div>
+    </section>
+
+    <section id="skills-section">      
+        <h2>Educación</h2>
+        <h1>ISEP CEU. Instituto Superior CEU de Estudios Profesionales</h1>
+        <p>Ciclo Superior Desarrollo de Aplicaciones Web (DAW). Titulación oficial de FP que se enfoca en el desarrollo, 
+        mantenimiento e implantación de aplicaciones informáticas en diferentes entornos web, tanto en internet como en intranet y extranet.</p>
+        <!-- <ul>
+            <li>Lenguajes de programación: Java, JavaScript, Python.</li>
+            <li>Bases de datos: MongoDB, SQL, MySQL.</li>
+            <li>Control de versiones: Git, GitHub.</li>
+            <li>Desarrollo Web: HTML, CSS, Bootstrap, Vue.js, React.</li>
+            <li>Diseño de interfaces: Figma.</li>
+        </ul> -->
+        <h3>Skills</h3>
+        <div class="skills-container">
+            <div class="skill" data-tooltip="Java"><i class="fa-brands fa-java"></i></div>
+            <div class="skill" data-tooltip="JavaScript, Python, Php."><i class="fa-brands fa-js"></i></div>
+            <div class="skill" data-tooltip="SQL, MySQL, MongoDB."><i class="fa-solid fa-database"></i></div>
+            <div class="skill" data-tooltip="HTML5"><i class="fa-brands fa-html5"></i></div>
+            <div class="skill" data-tooltip="CSS3"><i class="fa-brands fa-css3-alt"></i></div>
+            <div class="skill" data-tooltip="Vue.js: conocimientos basicos."><i class="fa-brands fa-vuejs"></i></div>
+            <div class="skill" data-tooltip="Figma"><i class="fa-brands fa-figma"></i></div>
+            <div class="skill" data-tooltip="Git"><i class="fa-brands fa-git-alt"></i></div>
+            <div class="skill" data-tooltip="GitHub"><i class="fa-brands fa-github-alt"></i></div>
+        </div>   
+
+    </section>
+
+    <section id="projects-section">
+        <h2>Projectos</h2> 
+        <h3>Software</h3>      
+        <div class="row justify-content-center">  
+            <div class="col-lg-4 col-md-6 col-sm-12 d-flex justify-content-center"> 
+                <div class="card">
+                    <img src="media/Cocktails&Dreams.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h4 class="card-title">Pagina web de Cocktails&Dreams</h4>
+                        <p class="card-text">Pagina web sobre cocktails, implementacion de una Api de bebidas para buscar y mostrar datos de forma externa.</p>
+                        <a href="https://carlotaroga.github.io/Cocktails-Dreams/" class="btn">Go somewhere</a>
+                    </div>
+                </div>
+            </div>
+    
+            <div class="col-lg-4 col-md-6 col-sm-12 d-flex justify-content-center"> 
+                <div class="card">
+                    <div>Comming soon...</div> 
+                    
+                </div>
+            </div>
+            
+        </div> 
+    </section>
+    
+ 
+    <section id="experience-section">
+        <h2>Experiencia</h2>
+        <div class="row justify-content-center">
+            <div class="col-lg-4 col-md-6 col-sm-12">
+                <div class="experience-header">
+                    <img src="media/CIEMAT.jpg" alt="CIEMAT Logo" class="experience-logo">
+                    <h3>CIEMAT</h3>
+                </div>
+                <span class="subtitle">Periodo de practicas:  Madrid, España 09/2024 - 11/2024</span>
+                <p> Centro de Investigaciones Energéticas, Medioambientales y Tecnológicas, organismo público español de investigación de excelencia en materias de energía y de medio ambiente.</p>
+                <p> • Complementación de conocimientos en front junto con el equipo de desarrollo de Python para una interfaz sobre radiación.</p>
+            </div>
+            <div class="col-lg-4 col-md-6 col-sm-12">
+                <div class="experience-header">
+                    <img src="media/Logo_TELEFONICA.jpg" alt="CIEMAT Logo" class="experience-logo">
+                    <h3>TELEFÓNICA</h3>
+                </div>
+                <span class="subtitle">Periodo de practicas:  Madrid, España 09/2022 - 06/2024</span> 
+                <p> Empresa multinacional de telecomunicaciones, con sede central en la ciudad de Madrid.</p>
+                <p> • Departamento de IT. Desarrollo pagina web sobre reserva de espacio de trabajo en oficinas.</p>
+            </div>
+        </div>
+    </section>
+
+    <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top">
+        <div class="col-md-4 d-flex align-items-center">
+          <a href="/" class="mb-3 me-2 mb-md-0 text-muted text-decoration-none lh-1">
+            <svg class="bi" width="30" height="24"><use xlink:href="#bootstrap"></use></svg>
+          </a>
+          <span class="text-muted">© 2025 Carlota Rodriguez Garcia</span>
+        </div>
+    
+        <ul class="nav col-md-4 justify-content-end list-unstyled d-flex">
+            <li class="ms-3">
+                <a href="https://www.linkedin.com/in/carlota-rodriguez-garcia-1399062a9/?trk=opento_sprofile_details" target="_blank">
+                <i class="fa-brands fa-linkedin"></i></a>
+            </li>
+            <li>
+                <a href="https://github.com/carlotaroga" target="_blank">
+                <i class="fa-brands fa-github"></i>
+                </a> 
+            </li>   
+        </ul>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+</body>
+</html>
