@@ -345,4 +345,21 @@
     #projects-section .card {
         margin-bottom: 2.5rem; 
     }
+    nav .navbar-brand {
+        font-size: 1.3rem;
+        font-weight: 600;
+        color: #588061 !important;
+        margin-left: 3rem;
+       
+    }
+}
+
+@media (max-width: 480px) { 
+    nav .navbar-brand {
+        font-size: 1.3rem;
+        font-weight: 600;
+        color: #588061 !important;
+        margin-left: 0;
+       
+    }
 }
