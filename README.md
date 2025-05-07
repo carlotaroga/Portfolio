@@ -1,4 +1,4 @@
-﻿# 🎨 Portfolio Personal - Carlota Rodriguez Garcia
+﻿# Portfolio Personal - Carlota Rodriguez Garcia
 
 ## 📝 Descripción
 Este es mi portfolio personal donde muestro mis habilidades, experiencia y proyectos como desarrolladora web. El sitio está diseñado para presentar mi perfil profesional de manera clara y atractiva. Podras ver mi pagina aquí https://carlotaroga.github.io/Portfolio/
